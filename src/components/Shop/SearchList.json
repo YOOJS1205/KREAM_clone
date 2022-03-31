@@ -1,0 +1,40 @@
+{
+    "SearchList_1": [
+        {
+          "id": 1,
+          "src": "/images/SearchList/1-1.png",
+          "company": "Nike",
+          "en": "Nike Dunk Low Retro Championship Court Purple",
+          "ko" : "나이키 덩크 로우 레트로 챔피언쉽 코트 퍼플",
+          "price": "245,000원",
+          "bottom": "즉시 구매가"
+        },
+        {
+          "id": 2,
+          "src": "/images/SearchList/1-2.png",
+          "company": "Nike",
+          "en": "Nike Dunk Low Retro Black",
+          "ko" : "나이키 덩크 로우 레트로 블랙",
+          "price": "268,000원",
+          "bottom": "즉시 구매가"
+        },
+        {
+          "id": 3,
+          "src": "/images/SearchList/1-3.png",
+          "company": "Jordan",
+          "en": "Jordan 1 Mid Light Smoke Grey Anthrcite.",
+          "ko" : "조던 1 미드 라이트 스모크 그레이 앤트러사이트",
+          "price": "570,000원",
+          "bottom": "즉시 구매가"
+        },
+        {
+          "id": 4,
+          "src": "/images/SearchList/1-4.png",
+          "company": "Nike",
+          "en": "(W) Nike Dunk Low Retro Black",
+          "ko" : "(W) 나이키 덩크 로우 블랙",
+          "price": "277,000원",
+          "bottom": "즉시 구매가"
+        }
+      ]
+}

@@ -1,0 +1,16 @@
+.main_1-fixed {
+  height: 474px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.Fixed_banner {
+  margin: 0 auto;
+  width: inherit;
+}
+
+.Fixed_banner img {
+  height: 474px;
+  width: 100%;
+}

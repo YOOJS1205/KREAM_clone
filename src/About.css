@@ -1,0 +1,154 @@
+.header {
+  height: 64px;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo img {
+  height: 64px;
+}
+
+.header_social {
+  width: 152px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.header_social i {
+  font-size: 24px;
+  color: black;
+}
+
+.header_social i:first-child {
+  margin-right: 24px;
+}
+
+.full-page-controls {
+  display: none;
+}
+
+.main {
+  height: calc(100% - 64px);
+  display: flex;
+}
+
+.outer {
+  width: 10%;
+}
+
+@keyframes rising {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(64px);
+    opacity: 1;
+  }
+}
+
+.inner {
+  width: 80%;
+  position: relative;
+}
+
+.inner_text {
+  animation-name: rising;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+
+.inner_text-title {
+  margin-top: 60px;
+}
+
+.inner_text-title h2 {
+  font-size: 88px;
+  font-weight: 600;
+}
+
+.inner_text-main {
+  margin-top: 23px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.inner_text-sub {
+  font-size: 17px;
+  opacity: 0.6;
+  margin-top: 14px;
+}
+
+.inner_text-download {
+  display: flex;
+  margin-top: 40px;
+}
+
+.inner_text-app {
+  margin-right: 16px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 10px;
+  width: 168px;
+  text-align: center;
+}
+
+.inner_text-app a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+}
+
+.inner_text-app i {
+  margin-right: 10px;
+}
+
+@keyframes side {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.inner_img img {
+  width: 690px;
+  height: 480px;
+  position: absolute;
+  animation-name: side;
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+
+.inner_img:first-child img {
+  top: 100px;
+  right: 110px;
+}
+
+.inner_img:last-child img {
+  top: 280px;
+  right: -80px;
+}
+
+.slide2 {
+  height: 100%;
+  background: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide2_title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+}

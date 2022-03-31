@@ -1,0 +1,45 @@
+.Style-picks-title {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 0 40px 8px 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Style-picks-slide {
+  max-width: 1280px;
+  height: 212px;
+  padding: 0 40px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.Style-picks-picture {
+  width: 20%;
+  aspect-ratio: 1 / 1.2;
+}
+
+.Style-picks-slide > ul {
+  min-width: 768px;
+}
+
+.Style-picks-slide > ul > li {
+  display: inline-block;
+  width: 132px;
+  height: 180px;
+  margin-right: 12px;
+}
+
+.Style-picks-picture img {
+  width: 130px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Style-picks-slide {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

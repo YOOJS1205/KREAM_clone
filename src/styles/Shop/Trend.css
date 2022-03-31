@@ -1,0 +1,25 @@
+#search_trend_container {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 114px;
+  padding: 0 40px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#search_trend_container > ul > li {
+  width: 80px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.brand_img img {
+  width: 70px;
+}
+
+.brand_name {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  padding-right: 10px;
+}

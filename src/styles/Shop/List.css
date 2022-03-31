@@ -1,0 +1,99 @@
+#search_option {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search_option-fast {
+  line-height: 68px;
+}
+
+#search_option-fast a {
+  text-decoration: none;
+  color: #222222;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-size: 13px;
+  padding: 2px 9px;
+}
+
+#search_option-popular {
+  width: 67px;
+  line-height: 68px;
+}
+
+#search_option-popular button {
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  background: white;
+}
+
+#search_result {
+  height: 4000px;
+  margin: 0 auto;
+}
+
+.search_result-list {
+  height: 427px;
+  display: flex;
+}
+
+.search_result-item {
+  width: 25%;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.item_picture {
+  border-radius: 12px;
+  background: rgb(235, 240, 245);
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.item_picture img {
+  height: 80%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.item_title {
+  padding-top: 9px;
+}
+
+.item_title-company {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item_title-info-en {
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.item_title-info-ko {
+  margin-top: 3px;
+  font-size: 12px;
+  opacity: 0.3;
+}
+
+.item_price {
+  padding-top: 11px;
+}
+
+.item_price-info {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item_price-explain {
+  padding-top: 2px;
+  font-size: 11px;
+  opacity: 0.3;
+}

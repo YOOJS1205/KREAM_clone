@@ -1,0 +1,16 @@
+#banner {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100px;
+  padding: 0 40px;
+}
+
+#banner_link {
+  text-align: center;
+  display: block;
+  background: #ece3f4;
+}
+
+#banner_link img {
+  height: 100px;
+}
